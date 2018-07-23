@@ -63,10 +63,18 @@
               'const' => 0,
               'data-type' => 'variable',
               'mandatory' => 0,
+              'default' => 
+              array (
+                'type' => 'string',
+                'value' => 'utf8',
+                'file' => '/Users/luoxiaojun/php-exts/utils/utils/str.zep',
+                'line' => 7,
+                'char' => 66,
+              ),
               'reference' => 0,
               'file' => '/Users/luoxiaojun/php-exts/utils/utils/str.zep',
               'line' => 7,
-              'char' => 59,
+              'char' => 66,
             ),
           ),
           'statements' => 

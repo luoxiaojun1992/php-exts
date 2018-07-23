@@ -4,7 +4,7 @@ class Str
 {
     protected static lengthCache;
 
-    public static function length(string str, var encoding)
+    public static function length(string str, var encoding = "utf8")
     {
 	var cacheKey = implode(':', [str, encoding]);
 	if isset(self::lengthCache[cacheKey]) {

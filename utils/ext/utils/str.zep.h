@@ -5,7 +5,7 @@ ZEPHIR_INIT_CLASS(Utils_Str);
 
 PHP_METHOD(Utils_Str, length);
 
-ZEND_BEGIN_ARG_INFO_EX(arginfo_utils_str_length, 0, 0, 2)
+ZEND_BEGIN_ARG_INFO_EX(arginfo_utils_str_length, 0, 0, 1)
 	ZEND_ARG_INFO(0, str)
 	ZEND_ARG_INFO(0, encoding)
 ZEND_END_ARG_INFO()

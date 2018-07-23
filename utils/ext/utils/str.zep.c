@@ -34,7 +34,7 @@ PHP_METHOD(Utils_Str, length) {
 
 	zval _0;
 	zend_long ZEPHIR_LAST_CALL_STATUS;
-	zval *str_param = NULL, *encoding, encoding_sub, __$null, __$true, cacheKey, _1, _2, length, _3$$3, _4$$3, length_cache_count$$4, _5$$4, _6$$5, _7$$5, _8$$5;
+	zval *str_param = NULL, *encoding = NULL, encoding_sub, __$null, __$true, cacheKey, _1, _2, length, _3$$3, _4$$3, length_cache_count$$4, _5$$4, _6$$5, _7$$5, _8$$5;
 	zval str;
 	zval *this_ptr = getThis();
 
@@ -56,9 +56,14 @@ PHP_METHOD(Utils_Str, length) {
 	ZVAL_UNDEF(&_0);
 
 	ZEPHIR_MM_GROW();
-	zephir_fetch_params(1, 2, 0, &str_param, &encoding);
+	zephir_fetch_params(1, 1, 1, &str_param, &encoding);
 
 	zephir_get_strval(&str, str_param);
+	if (!encoding) {
+		encoding = &encoding_sub;
+		ZEPHIR_INIT_VAR(encoding);
+		ZVAL_STRING(encoding, "utf8");
+	}
 
 
 	ZEPHIR_INIT_VAR(&_0);
