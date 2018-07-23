@@ -11,7 +11,7 @@ SHLIB_DL_SUFFIX_NAME = so
 ZEND_EXT_TYPE = zend_extension
 RE2C = re2c
 AWK = gawk
-shared_objects_utils = utils.lo kernel/main.lo kernel/memory.lo kernel/exception.lo kernel/debug.lo kernel/backtrace.lo kernel/object.lo kernel/array.lo kernel/string.lo kernel/fcall.lo kernel/require.lo kernel/file.lo kernel/operators.lo kernel/math.lo kernel/concat.lo kernel/variables.lo kernel/filter.lo kernel/iterator.lo kernel/time.lo kernel/exit.lo utils/str.lo
+shared_objects_utils = utils.lo kernel/main.lo kernel/memory.lo kernel/exception.lo kernel/debug.lo kernel/backtrace.lo kernel/object.lo kernel/array.lo kernel/string.lo kernel/fcall.lo kernel/require.lo kernel/file.lo kernel/operators.lo kernel/math.lo kernel/concat.lo kernel/variables.lo kernel/filter.lo kernel/iterator.lo kernel/time.lo kernel/exit.lo utils/arr.lo utils/str.lo
 PHP_PECL_EXTENSION = utils
 UTILS_SHARED_LIBADD =
 PHP_MODULES = $(phplibdir)/utils.la
@@ -230,6 +230,8 @@ kernel/time.lo: /Users/luoxiaojun/php-exts/utils/ext/kernel/time.c
 	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/luoxiaojun/php-exts/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/luoxiaojun/php-exts/utils/ext/kernel/time.c -o kernel/time.lo 
 kernel/exit.lo: /Users/luoxiaojun/php-exts/utils/ext/kernel/exit.c
 	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/luoxiaojun/php-exts/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/luoxiaojun/php-exts/utils/ext/kernel/exit.c -o kernel/exit.lo 
+utils/arr.lo: /Users/luoxiaojun/php-exts/utils/ext/utils/arr.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/luoxiaojun/php-exts/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/luoxiaojun/php-exts/utils/ext/utils/arr.zep.c -o utils/arr.lo 
 utils/str.lo: /Users/luoxiaojun/php-exts/utils/ext/utils/str.zep.c
 	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/luoxiaojun/php-exts/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/luoxiaojun/php-exts/utils/ext/utils/str.zep.c -o utils/str.lo 
 $(phplibdir)/utils.la: ./utils.la

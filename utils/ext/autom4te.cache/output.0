@@ -4243,7 +4243,8 @@ if test "$PHP_UTILS" = "yes"; then
 	
 $as_echo "@%:@define HAVE_UTILS 1" >>confdefs.h
 
-	utils_sources="utils.c kernel/main.c kernel/memory.c kernel/exception.c kernel/debug.c kernel/backtrace.c kernel/object.c kernel/array.c kernel/string.c kernel/fcall.c kernel/require.c kernel/file.c kernel/operators.c kernel/math.c kernel/concat.c kernel/variables.c kernel/filter.c kernel/iterator.c kernel/time.c kernel/exit.c utils/str.zep.c "
+	utils_sources="utils.c kernel/main.c kernel/memory.c kernel/exception.c kernel/debug.c kernel/backtrace.c kernel/object.c kernel/array.c kernel/string.c kernel/fcall.c kernel/require.c kernel/file.c kernel/operators.c kernel/math.c kernel/concat.c kernel/variables.c kernel/filter.c kernel/iterator.c kernel/time.c kernel/exit.c utils/arr.zep.c
+	utils/str.zep.c "
 	
   ext_builddir=.
   ext_srcdir=$abs_srcdir

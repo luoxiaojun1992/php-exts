@@ -30,8 +30,8 @@ Kernel configured for up to 4 processors.
 Processor type: x86_64h (Intel x86-64h Haswell)
 Processors active: 0 1 2 3
 Primary memory available: 8.00 gigabytes
-Default processor set: 319 tasks, 1653 threads, 4 processors
-Load average: 1.89, Mach factor: 2.11
+Default processor set: 315 tasks, 1650 threads, 4 processors
+Load average: 2.63, Mach factor: 1.70
 /bin/machine           = unknown
 /usr/bin/oslevel       = unknown
 /bin/universe          = unknown
@@ -246,163 +246,163 @@ configure:4048: found /usr/local/bin/gawk
 configure:4059: result: gawk
 configure:4102: checking whether to enable utils
 configure:4141: result: yes, shared
-configure:4548: checking whether HAVE_BUNDLED_PCRE is declared
-configure:4548: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  -I/usr/local/Cellar/php@7.1/7.1.17/include/php -I/usr/local/Cellar/php@7.1/7.1.17/include/php/main -I/usr/local/Cellar/php@7.1/7.1.17/include/php/TSRM -I/usr/local/Cellar/php@7.1/7.1.17/include/php/Zend -I/usr/local/Cellar/php@7.1/7.1.17/include/php/ext -I/usr/local/Cellar/php@7.1/7.1.17/include/php/ext/date/lib conftest.c >&5
-configure:4548: $? = 0
-configure:4548: result: yes
-configure:4555: checking for ext/pcre/php_pcre.h
-configure:4555: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  -I/usr/local/Cellar/php@7.1/7.1.17/include/php -I/usr/local/Cellar/php@7.1/7.1.17/include/php/main -I/usr/local/Cellar/php@7.1/7.1.17/include/php/TSRM -I/usr/local/Cellar/php@7.1/7.1.17/include/php/Zend -I/usr/local/Cellar/php@7.1/7.1.17/include/php/ext -I/usr/local/Cellar/php@7.1/7.1.17/include/php/ext/date/lib conftest.c >&5
-configure:4555: $? = 0
-configure:4555: result: yes
-configure:4594: checking whether HAVE_JSON is declared
-configure:4594: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  -I/usr/local/Cellar/php@7.1/7.1.17/include/php -I/usr/local/Cellar/php@7.1/7.1.17/include/php/main -I/usr/local/Cellar/php@7.1/7.1.17/include/php/TSRM -I/usr/local/Cellar/php@7.1/7.1.17/include/php/Zend -I/usr/local/Cellar/php@7.1/7.1.17/include/php/ext -I/usr/local/Cellar/php@7.1/7.1.17/include/php/ext/date/lib conftest.c >&5
-configure:4594: $? = 0
-configure:4594: result: yes
-configure:4601: checking for ext/json/php_json.h
-configure:4601: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  -I/usr/local/Cellar/php@7.1/7.1.17/include/php -I/usr/local/Cellar/php@7.1/7.1.17/include/php/main -I/usr/local/Cellar/php@7.1/7.1.17/include/php/TSRM -I/usr/local/Cellar/php@7.1/7.1.17/include/php/Zend -I/usr/local/Cellar/php@7.1/7.1.17/include/php/ext -I/usr/local/Cellar/php@7.1/7.1.17/include/php/ext/date/lib conftest.c >&5
-configure:4601: $? = 0
-configure:4601: result: yes
-configure:4758: checking for ld used by gcc
-configure:4825: result: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
-configure:4832: checking if the linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) is GNU ld
-configure:4847: result: no
-configure:4852: checking for /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld option to reload object files
-configure:4859: result: -r
-configure:4877: checking for BSD-compatible nm
-configure:4926: result: /usr/bin/nm -B
-configure:4930: checking whether ln -s works
-configure:4934: result: yes
-configure:4941: checking how to recognize dependent libraries
-configure:5127: result: pass_all
-configure:5345: checking for ANSI C header files
-configure:5365: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  conftest.c >&5
-configure:5365: $? = 0
-configure:5438: gcc -o conftest -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1   conftest.c  >&5
+configure:4549: checking whether HAVE_BUNDLED_PCRE is declared
+configure:4549: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  -I/usr/local/Cellar/php@7.1/7.1.17/include/php -I/usr/local/Cellar/php@7.1/7.1.17/include/php/main -I/usr/local/Cellar/php@7.1/7.1.17/include/php/TSRM -I/usr/local/Cellar/php@7.1/7.1.17/include/php/Zend -I/usr/local/Cellar/php@7.1/7.1.17/include/php/ext -I/usr/local/Cellar/php@7.1/7.1.17/include/php/ext/date/lib conftest.c >&5
+configure:4549: $? = 0
+configure:4549: result: yes
+configure:4556: checking for ext/pcre/php_pcre.h
+configure:4556: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  -I/usr/local/Cellar/php@7.1/7.1.17/include/php -I/usr/local/Cellar/php@7.1/7.1.17/include/php/main -I/usr/local/Cellar/php@7.1/7.1.17/include/php/TSRM -I/usr/local/Cellar/php@7.1/7.1.17/include/php/Zend -I/usr/local/Cellar/php@7.1/7.1.17/include/php/ext -I/usr/local/Cellar/php@7.1/7.1.17/include/php/ext/date/lib conftest.c >&5
+configure:4556: $? = 0
+configure:4556: result: yes
+configure:4595: checking whether HAVE_JSON is declared
+configure:4595: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  -I/usr/local/Cellar/php@7.1/7.1.17/include/php -I/usr/local/Cellar/php@7.1/7.1.17/include/php/main -I/usr/local/Cellar/php@7.1/7.1.17/include/php/TSRM -I/usr/local/Cellar/php@7.1/7.1.17/include/php/Zend -I/usr/local/Cellar/php@7.1/7.1.17/include/php/ext -I/usr/local/Cellar/php@7.1/7.1.17/include/php/ext/date/lib conftest.c >&5
+configure:4595: $? = 0
+configure:4595: result: yes
+configure:4602: checking for ext/json/php_json.h
+configure:4602: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  -I/usr/local/Cellar/php@7.1/7.1.17/include/php -I/usr/local/Cellar/php@7.1/7.1.17/include/php/main -I/usr/local/Cellar/php@7.1/7.1.17/include/php/TSRM -I/usr/local/Cellar/php@7.1/7.1.17/include/php/Zend -I/usr/local/Cellar/php@7.1/7.1.17/include/php/ext -I/usr/local/Cellar/php@7.1/7.1.17/include/php/ext/date/lib conftest.c >&5
+configure:4602: $? = 0
+configure:4602: result: yes
+configure:4759: checking for ld used by gcc
+configure:4826: result: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+configure:4833: checking if the linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) is GNU ld
+configure:4848: result: no
+configure:4853: checking for /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld option to reload object files
+configure:4860: result: -r
+configure:4878: checking for BSD-compatible nm
+configure:4927: result: /usr/bin/nm -B
+configure:4931: checking whether ln -s works
+configure:4935: result: yes
+configure:4942: checking how to recognize dependent libraries
+configure:5128: result: pass_all
+configure:5346: checking for ANSI C header files
+configure:5366: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  conftest.c >&5
+configure:5366: $? = 0
+configure:5439: gcc -o conftest -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1   conftest.c  >&5
 ld: warning: directory not found for option '-L/Users/luoxiaojun/qt/qmqtt'
-configure:5438: $? = 0
-configure:5438: ./conftest
-configure:5438: $? = 0
-configure:5449: result: yes
-configure:5462: checking for sys/types.h
-configure:5462: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  conftest.c >&5
-configure:5462: $? = 0
-configure:5462: result: yes
-configure:5462: checking for sys/stat.h
-configure:5462: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  conftest.c >&5
-configure:5462: $? = 0
-configure:5462: result: yes
-configure:5462: checking for stdlib.h
-configure:5462: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  conftest.c >&5
-configure:5462: $? = 0
-configure:5462: result: yes
-configure:5462: checking for string.h
-configure:5462: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  conftest.c >&5
-configure:5462: $? = 0
-configure:5462: result: yes
-configure:5462: checking for memory.h
-configure:5462: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  conftest.c >&5
-configure:5462: $? = 0
-configure:5462: result: yes
-configure:5462: checking for strings.h
-configure:5462: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  conftest.c >&5
-configure:5462: $? = 0
-configure:5462: result: yes
-configure:5462: checking for inttypes.h
-configure:5462: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  conftest.c >&5
-configure:5462: $? = 0
-configure:5462: result: yes
-configure:5462: checking for stdint.h
-configure:5462: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  conftest.c >&5
-configure:5462: $? = 0
-configure:5462: result: yes
-configure:5462: checking for unistd.h
-configure:5462: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  conftest.c >&5
-configure:5462: $? = 0
-configure:5462: result: yes
-configure:5476: checking dlfcn.h usability
-configure:5476: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  conftest.c >&5
-configure:5476: $? = 0
-configure:5476: result: yes
-configure:5476: checking dlfcn.h presence
-configure:5476: gcc -E  conftest.c
-configure:5476: $? = 0
-configure:5476: result: yes
-configure:5476: checking for dlfcn.h
-configure:5476: result: yes
-configure:5498: checking the maximum length of command line arguments
-configure:5610: result: 196608
-configure:5622: checking command to parse /usr/bin/nm -B output from gcc object
-configure:5727: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  conftest.c >&5
-configure:5730: $? = 0
-configure:5734: /usr/bin/nm -B conftest.o \| sed -n -e 's/^.*[ 	]\([BCDEGRST][BCDEGRST]*\)[ 	][ 	]*\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2 \2/p' \> conftest.nm
-configure:5737: $? = 0
+configure:5439: $? = 0
+configure:5439: ./conftest
+configure:5439: $? = 0
+configure:5450: result: yes
+configure:5463: checking for sys/types.h
+configure:5463: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  conftest.c >&5
+configure:5463: $? = 0
+configure:5463: result: yes
+configure:5463: checking for sys/stat.h
+configure:5463: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  conftest.c >&5
+configure:5463: $? = 0
+configure:5463: result: yes
+configure:5463: checking for stdlib.h
+configure:5463: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  conftest.c >&5
+configure:5463: $? = 0
+configure:5463: result: yes
+configure:5463: checking for string.h
+configure:5463: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  conftest.c >&5
+configure:5463: $? = 0
+configure:5463: result: yes
+configure:5463: checking for memory.h
+configure:5463: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  conftest.c >&5
+configure:5463: $? = 0
+configure:5463: result: yes
+configure:5463: checking for strings.h
+configure:5463: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  conftest.c >&5
+configure:5463: $? = 0
+configure:5463: result: yes
+configure:5463: checking for inttypes.h
+configure:5463: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  conftest.c >&5
+configure:5463: $? = 0
+configure:5463: result: yes
+configure:5463: checking for stdint.h
+configure:5463: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  conftest.c >&5
+configure:5463: $? = 0
+configure:5463: result: yes
+configure:5463: checking for unistd.h
+configure:5463: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  conftest.c >&5
+configure:5463: $? = 0
+configure:5463: result: yes
+configure:5477: checking dlfcn.h usability
+configure:5477: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  conftest.c >&5
+configure:5477: $? = 0
+configure:5477: result: yes
+configure:5477: checking dlfcn.h presence
+configure:5477: gcc -E  conftest.c
+configure:5477: $? = 0
+configure:5477: result: yes
+configure:5477: checking for dlfcn.h
+configure:5477: result: yes
+configure:5499: checking the maximum length of command line arguments
+configure:5611: result: 196608
+configure:5623: checking command to parse /usr/bin/nm -B output from gcc object
+configure:5728: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  conftest.c >&5
+configure:5731: $? = 0
+configure:5735: /usr/bin/nm -B conftest.o \| sed -n -e 's/^.*[ 	]\([BCDEGRST][BCDEGRST]*\)[ 	][ 	]*\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2 \2/p' \> conftest.nm
+configure:5738: $? = 0
 cannot find nm_test_var in conftest.nm
-configure:5727: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  conftest.c >&5
-configure:5730: $? = 0
-configure:5734: /usr/bin/nm -B conftest.o \| sed -n -e 's/^.*[ 	]\([BCDEGRST][BCDEGRST]*\)[ 	][ 	]*_\([_A-Za-z][_A-Za-z0-9]*\)$/\1 _\2 \2/p' \> conftest.nm
-configure:5737: $? = 0
-configure:5789: gcc -o conftest -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1   conftest.c conftstm.o >&5
+configure:5728: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  conftest.c >&5
+configure:5731: $? = 0
+configure:5735: /usr/bin/nm -B conftest.o \| sed -n -e 's/^.*[ 	]\([BCDEGRST][BCDEGRST]*\)[ 	][ 	]*_\([_A-Za-z][_A-Za-z0-9]*\)$/\1 _\2 \2/p' \> conftest.nm
+configure:5738: $? = 0
+configure:5790: gcc -o conftest -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1   conftest.c conftstm.o >&5
 ld: warning: directory not found for option '-L/Users/luoxiaojun/qt/qmqtt'
-configure:5792: $? = 0
-configure:5830: result: ok
-configure:5834: checking for objdir
-configure:5849: result: .libs
-configure:5941: checking for ar
-configure:5957: found /usr/bin/ar
-configure:5968: result: ar
-configure:6033: checking for ranlib
-configure:6049: found /usr/bin/ranlib
-configure:6060: result: ranlib
-configure:6125: checking for strip
-configure:6141: found /usr/bin/strip
-configure:6152: result: strip
-configure:6405: checking for dsymutil
-configure:6421: found /usr/bin/dsymutil
-configure:6432: result: dsymutil
-configure:6497: checking for nmedit
-configure:6513: found /usr/bin/nmedit
-configure:6524: result: nmedit
-configure:6547: checking for -single_module linker flag
-configure:6568: result: yes
-configure:6570: checking for -exported_symbols_list linker flag
-configure:6586: gcc -o conftest -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1   -Wl,-exported_symbols_list,conftest.sym conftest.c  >&5
+configure:5793: $? = 0
+configure:5831: result: ok
+configure:5835: checking for objdir
+configure:5850: result: .libs
+configure:5942: checking for ar
+configure:5958: found /usr/bin/ar
+configure:5969: result: ar
+configure:6034: checking for ranlib
+configure:6050: found /usr/bin/ranlib
+configure:6061: result: ranlib
+configure:6126: checking for strip
+configure:6142: found /usr/bin/strip
+configure:6153: result: strip
+configure:6406: checking for dsymutil
+configure:6422: found /usr/bin/dsymutil
+configure:6433: result: dsymutil
+configure:6498: checking for nmedit
+configure:6514: found /usr/bin/nmedit
+configure:6525: result: nmedit
+configure:6548: checking for -single_module linker flag
+configure:6569: result: yes
+configure:6571: checking for -exported_symbols_list linker flag
+configure:6587: gcc -o conftest -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1   -Wl,-exported_symbols_list,conftest.sym conftest.c  >&5
 ld: warning: directory not found for option '-L/Users/luoxiaojun/qt/qmqtt'
-ld: warning: cannot export hidden symbol _main from /var/folders/03/4lgqkvks153_j4kn31gpd5th0000gn/T/conftest-82db90.o
-configure:6589: $? = 0
-configure:6603: result: yes
-configure:6721: checking if gcc supports -fno-rtti -fno-exceptions
-configure:6739: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  -fno-rtti -fno-exceptions conftest.c >&5
-configure:6743: $? = 0
-configure:6756: result: yes
-configure:6771: checking for gcc option to produce PIC
-configure:7011: result: -fno-common
-configure:7019: checking if gcc PIC flag -fno-common works
-configure:7037: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  -fno-common -DPIC conftest.c >&5
-configure:7041: $? = 0
-configure:7054: result: yes
-configure:7082: checking if gcc static flag -static works
-configure:7110: result: no
-configure:7120: checking if gcc supports -c -o file.o
-configure:7141: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  -o out/conftest2.o conftest.c >&5
-configure:7145: $? = 0
-configure:7167: result: yes
-configure:7193: checking whether the gcc linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) supports shared libraries
-configure:8121: result: yes
-configure:8188: checking dynamic linker characteristics
-configure:8786: result: darwin16.4.0 dyld
-configure:8810: checking how to hardcode library paths into programs
-configure:8835: result: immediate
-configure:8849: checking whether stripping libraries is possible
-configure:8863: result: yes
-configure:9371: checking if libtool supports shared libraries
-configure:9373: result: yes
-configure:9376: checking whether to build shared libraries
-configure:9397: result: yes
-configure:9400: checking whether to build static libraries
-configure:9404: result: no
-configure:9499: result:
+ld: warning: cannot export hidden symbol _main from /var/folders/03/4lgqkvks153_j4kn31gpd5th0000gn/T/conftest-6cdb68.o
+configure:6590: $? = 0
+configure:6604: result: yes
+configure:6722: checking if gcc supports -fno-rtti -fno-exceptions
+configure:6740: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  -fno-rtti -fno-exceptions conftest.c >&5
+configure:6744: $? = 0
+configure:6757: result: yes
+configure:6772: checking for gcc option to produce PIC
+configure:7012: result: -fno-common
+configure:7020: checking if gcc PIC flag -fno-common works
+configure:7038: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  -fno-common -DPIC conftest.c >&5
+configure:7042: $? = 0
+configure:7055: result: yes
+configure:7083: checking if gcc static flag -static works
+configure:7111: result: no
+configure:7121: checking if gcc supports -c -o file.o
+configure:7142: gcc -c -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1  -o out/conftest2.o conftest.c >&5
+configure:7146: $? = 0
+configure:7168: result: yes
+configure:7194: checking whether the gcc linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) supports shared libraries
+configure:8122: result: yes
+configure:8189: checking dynamic linker characteristics
+configure:8787: result: darwin16.4.0 dyld
+configure:8811: checking how to hardcode library paths into programs
+configure:8836: result: immediate
+configure:8850: checking whether stripping libraries is possible
+configure:8864: result: yes
+configure:9372: checking if libtool supports shared libraries
+configure:9374: result: yes
+configure:9377: checking whether to build shared libraries
+configure:9398: result: yes
+configure:9401: checking whether to build static libraries
+configure:9405: result: no
+configure:9500: result:
 creating libtool
-configure:13198: creating ./config.status
+configure:13199: creating ./config.status
 
 ## ---------------------- ##
 ## Running config.status. ##

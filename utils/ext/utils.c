@@ -23,6 +23,7 @@
 
 
 
+zend_class_entry *utils_arr_ce;
 zend_class_entry *utils_str_ce;
 
 ZEND_DECLARE_MODULE_GLOBALS(utils)
@@ -35,6 +36,7 @@ static PHP_MINIT_FUNCTION(utils)
 {
 	REGISTER_INI_ENTRIES();
 	zephir_module_init();
+	ZEPHIR_INIT(Utils_Arr);
 	ZEPHIR_INIT(Utils_Str);
 	
 	return SUCCESS;
