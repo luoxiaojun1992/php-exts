@@ -76,8 +76,9 @@ PHP_METHOD(Utils_Str, length) {
 	zephir_fast_join(&cacheKey, &_1, &_0 TSRMLS_CC);
 	zephir_read_static_property_ce(&_2, utils_str_ce, SL("lengthCache"), PH_NOISY_CC | PH_READONLY);
 	if (zephir_array_isset(&_2, &cacheKey)) {
+		php_printf("%d", 1111);
 		zephir_read_static_property_ce(&_3$$3, utils_str_ce, SL("lengthCache"), PH_NOISY_CC | PH_READONLY);
-		zephir_array_fetch(&_4$$3, &_3$$3, &cacheKey, PH_NOISY | PH_READONLY, "utils/str.zep", 11 TSRMLS_CC);
+		zephir_array_fetch(&_4$$3, &_3$$3, &cacheKey, PH_NOISY | PH_READONLY, "utils/str.zep", 12 TSRMLS_CC);
 		RETURN_CTOR(&_4$$3);
 	}
 	ZEPHIR_CALL_FUNCTION(&length, "mb_strlen", NULL, 1, &str, encoding);

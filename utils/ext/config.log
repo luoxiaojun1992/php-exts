@@ -30,8 +30,8 @@ Kernel configured for up to 4 processors.
 Processor type: x86_64h (Intel x86-64h Haswell)
 Processors active: 0 1 2 3
 Primary memory available: 8.00 gigabytes
-Default processor set: 338 tasks, 1965 threads, 4 processors
-Load average: 3.08, Mach factor: 1.49
+Default processor set: 319 tasks, 1653 threads, 4 processors
+Load average: 1.89, Mach factor: 2.11
 /bin/machine           = unknown
 /usr/bin/oslevel       = unknown
 /bin/universe          = unknown
@@ -367,7 +367,7 @@ configure:6568: result: yes
 configure:6570: checking for -exported_symbols_list linker flag
 configure:6586: gcc -o conftest -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1   -Wl,-exported_symbols_list,conftest.sym conftest.c  >&5
 ld: warning: directory not found for option '-L/Users/luoxiaojun/qt/qmqtt'
-ld: warning: cannot export hidden symbol _main from /var/folders/03/4lgqkvks153_j4kn31gpd5th0000gn/T/conftest-b00075.o
+ld: warning: cannot export hidden symbol _main from /var/folders/03/4lgqkvks153_j4kn31gpd5th0000gn/T/conftest-82db90.o
 configure:6589: $? = 0
 configure:6603: result: yes
 configure:6721: checking if gcc supports -fno-rtti -fno-exceptions

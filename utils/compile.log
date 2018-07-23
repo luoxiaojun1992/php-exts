@@ -1,9 +1,3 @@
- gcc -I. -I/Users/luoxiaojun/php-exts/utils/ext -DPHP_ATOM_INC -I/Users/luoxiaojun/php-exts/utils/ext/include -I/Users/luoxiaojun/php-exts/utils/ext/main -I/Users/luoxiaojun/php-exts/utils/ext -I/usr/local/Cellar/php@7.1/7.1.17/include/php -I/usr/local/Cellar/php@7.1/7.1.17/include/php/main -I/usr/local/Cellar/php@7.1/7.1.17/include/php/TSRM -I/usr/local/Cellar/php@7.1/7.1.17/include/php/Zend -I/usr/local/Cellar/php@7.1/7.1.17/include/php/ext -I/usr/local/Cellar/php@7.1/7.1.17/include/php/ext/date/lib -DHAVE_CONFIG_H -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1 -c /Users/luoxiaojun/php-exts/utils/ext/utils/str.zep.c  -fno-common -DPIC -o utils/.libs/str.o
-rm -fr  .libs/utils.la .libs/utils.lai .libs/utils.so .libs/utils.so.dSYM
-gcc ${wl}-flat_namespace ${wl}-undefined ${wl}suppress -o .libs/utils.so -bundle  .libs/utils.o kernel/.libs/main.o kernel/.libs/memory.o kernel/.libs/exception.o kernel/.libs/debug.o kernel/.libs/backtrace.o kernel/.libs/object.o kernel/.libs/array.o kernel/.libs/string.o kernel/.libs/fcall.o kernel/.libs/require.o kernel/.libs/file.o kernel/.libs/operators.o kernel/.libs/math.o kernel/.libs/concat.o kernel/.libs/variables.o kernel/.libs/filter.o kernel/.libs/iterator.o kernel/.libs/time.o kernel/.libs/exit.o utils/.libs/str.o  
-dsymutil .libs/utils.so || :
-creating utils.la
-(cd .libs && rm -f utils.la && ln -s ../utils.la utils.la)
 cp ./.libs/utils.so /Users/luoxiaojun/php-exts/utils/ext/modules/utils.so
 cp ./.libs/utils.lai /Users/luoxiaojun/php-exts/utils/ext/modules/utils.la
 ----------------------------------------------------------------------
