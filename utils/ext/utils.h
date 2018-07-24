@@ -5,6 +5,7 @@
 #define ZEPHIR_CLASS_ENTRIES_H
 
 #include "utils/arr.zep.h"
+#include "utils/pagination.zep.h"
 #include "utils/str.zep.h"
 #include "utils/validator.zep.h"
 

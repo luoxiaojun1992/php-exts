@@ -24,6 +24,7 @@
 
 
 zend_class_entry *utils_arr_ce;
+zend_class_entry *utils_pagination_ce;
 zend_class_entry *utils_str_ce;
 zend_class_entry *utils_validator_ce;
 
@@ -38,6 +39,7 @@ static PHP_MINIT_FUNCTION(utils)
 	REGISTER_INI_ENTRIES();
 	zephir_module_init();
 	ZEPHIR_INIT(Utils_Arr);
+	ZEPHIR_INIT(Utils_Pagination);
 	ZEPHIR_INIT(Utils_Str);
 	ZEPHIR_INIT(Utils_Validator);
 	

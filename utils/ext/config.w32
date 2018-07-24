@@ -10,7 +10,7 @@ if (PHP_UTILS != "no") {
     AC_DEFINE("ZEPHIR_USE_PHP_JSON", 1, "Whether PHP json extension is present at compile time");
   }
   
-  ADD_SOURCES(configure_module_dirname + "/utils", "arr.zep.c str.zep.c validator.zep.c", "utils");
+  ADD_SOURCES(configure_module_dirname + "/utils", "arr.zep.c pagination.zep.c str.zep.c validator.zep.c", "utils");
   ADD_FLAG("CFLAGS_UTILS", "/D ZEPHIR_RELEASE /Oi /Ot /Oy /Ob2 /Gs /GF /Gy /GL");
   ADD_FLAG("CFLAGS", "/D ZEPHIR_RELEASE /Oi /Ot /Oy /Ob2 /Gs /GF /Gy /GL");
   ADD_FLAG("LDFLAGS", "/LTCG");
