@@ -6,5 +6,6 @@
 
 #include "utils/arr.zep.h"
 #include "utils/str.zep.h"
+#include "utils/validator.zep.h"
 
 #endif

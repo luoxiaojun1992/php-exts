@@ -10,7 +10,8 @@ if test "$PHP_UTILS" = "yes"; then
 
 	AC_DEFINE(HAVE_UTILS, 1, [Whether you have Utils])
 	utils_sources="utils.c kernel/main.c kernel/memory.c kernel/exception.c kernel/debug.c kernel/backtrace.c kernel/object.c kernel/array.c kernel/string.c kernel/fcall.c kernel/require.c kernel/file.c kernel/operators.c kernel/math.c kernel/concat.c kernel/variables.c kernel/filter.c kernel/iterator.c kernel/time.c kernel/exit.c utils/arr.zep.c
-	utils/str.zep.c "
+	utils/str.zep.c
+	utils/validator.zep.c "
 	PHP_NEW_EXTENSION(utils, $utils_sources, $ext_shared,, )
 	PHP_SUBST(UTILS_SHARED_LIBADD)
 

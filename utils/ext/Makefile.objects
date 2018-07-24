@@ -42,6 +42,8 @@ utils/arr.lo: /Users/luoxiaojun/php-exts/utils/ext/utils/arr.zep.c
 	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/luoxiaojun/php-exts/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/luoxiaojun/php-exts/utils/ext/utils/arr.zep.c -o utils/arr.lo 
 utils/str.lo: /Users/luoxiaojun/php-exts/utils/ext/utils/str.zep.c
 	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/luoxiaojun/php-exts/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/luoxiaojun/php-exts/utils/ext/utils/str.zep.c -o utils/str.lo 
+utils/validator.lo: /Users/luoxiaojun/php-exts/utils/ext/utils/validator.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/luoxiaojun/php-exts/utils/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/luoxiaojun/php-exts/utils/ext/utils/validator.zep.c -o utils/validator.lo 
 $(phplibdir)/utils.la: ./utils.la
 	$(LIBTOOL) --mode=install cp ./utils.la $(phplibdir)
 
