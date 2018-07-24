@@ -78,7 +78,7 @@ class Pagination
     /**
      * @return mixed
      */
-    public function getTotal()
+    public function getTotal() -> int
     {
         return this->total;
     }
@@ -86,7 +86,7 @@ class Pagination
     /**
      * @return mixed
      */
-    public function getPerPage()
+    public function getPerPage() -> int
     {
         return this->per_page;
     }
@@ -102,7 +102,7 @@ class Pagination
     /**
      * @return mixed
      */
-    public function getOffset()
+    public function getOffset() -> int
     {
         return this->offset;
     }
@@ -110,7 +110,7 @@ class Pagination
     /**
      * @return mixed
      */
-    public function getPageTotal()
+    public function getPageTotal() -> int
     {
         return this->page_total;
     }
