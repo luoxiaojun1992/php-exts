@@ -2,7 +2,7 @@ namespace Utils;
 
 class Arr
 {
-	public static function exists(array arr, var key)
+    public static function exists(array arr, var key) -> bool
     {
         if is_array(key) {
             var sub_key;
@@ -24,4 +24,3 @@ class Arr
         }
     }
 }
-

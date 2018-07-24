@@ -1,12 +1,1 @@
-/Users/luoxiaojun/php-exts/utils/ext/kernel/fcall.c:38:9: warning: nonnull parameter 'ce' will evaluate to 'true' on first encounter [-Wpointer-bool-conversion]
-        while (ce) {
-        ~~~~~  ^~
-./kernel/fcall.h:400:76: note: declared 'nonnull' here
-int zephir_has_constructor_ce(const zend_class_entry *ce) ZEPHIR_ATTR_PURE ZEPHIR_ATTR_NONNULL;
-                                                                           ^
-./kernel/globals.h:87:45: note: expanded from macro 'ZEPHIR_ATTR_NONNULL'
-# define ZEPHIR_ATTR_NONNULL __attribute__((nonnull))
-                                            ^
-1 warning generated.
-ld: warning: directory not found for option '-L/Users/luoxiaojun/qt/qmqtt'
-warning: no debug symbols in executable (-arch x86_64)
+Sorry, try again.
